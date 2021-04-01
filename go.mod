@@ -14,7 +14,7 @@ require (
 	github.com/micro/go-micro v1.18.0 // indirect
 	github.com/oklog/oklog v0.3.2
 	github.com/sirupsen/logrus v1.8.1
-	github.com/yveshield/go-microservices v0.0.1
+	github.com/yveshield/go-microservices v0.0.2
 	golang.org/x/net v0.0.0-20210331212208-0fccb6fa2b5c
 	google.golang.org/grpc v1.36.1
 )
