@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	proto "github.com/antklim/go-microservices/go-micro-greeter/pb"
+	micro "github.com/asim/go-micro/v3"
 	"github.com/micro/cli"
-	micro "github.com/micro/go-micro"
+	proto "github.com/yveshield/go-microservices/go-micro-greeter/pb"
 )
 
 func main() {

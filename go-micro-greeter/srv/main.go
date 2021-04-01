@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	pb "github.com/antklim/go-microservices/go-micro-greeter/pb"
-	"github.com/micro/go-micro"
+	"github.com/asim/go-micro/v3"
+	pb "github.com/yveshield/go-microservices/go-micro-greeter/pb"
 	"golang.org/x/net/context"
 )
 

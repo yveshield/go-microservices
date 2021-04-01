@@ -6,7 +6,7 @@ import (
 	ocontext "golang.org/x/net/context"
 
 	"github.com/NYTimes/gizmo/server"
-	"github.com/antklim/go-microservices/gizmo-greeter/pkg/greeterservice"
+	"github.com/yveshield/go-microservices/gizmo-greeter/pkg/greeterservice"
 )
 
 // Endpoints collects all of the endpoints that compose a greeter service.

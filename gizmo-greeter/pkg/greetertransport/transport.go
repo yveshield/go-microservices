@@ -10,9 +10,9 @@ import (
 	"net/http"
 
 	"github.com/NYTimes/gziphandler"
-	pb "github.com/antklim/go-microservices/gizmo-greeter/pb"
-	"github.com/antklim/go-microservices/gizmo-greeter/pkg/greeterendpoint"
 	"github.com/sirupsen/logrus"
+	pb "github.com/yveshield/go-microservices/gizmo-greeter/pb"
+	"github.com/yveshield/go-microservices/gizmo-greeter/pkg/greeterendpoint"
 )
 
 type (

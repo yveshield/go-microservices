@@ -11,11 +11,11 @@ import (
 
 	"github.com/NYTimes/gizmo/config"
 	"github.com/NYTimes/gizmo/server"
-	"github.com/antklim/go-microservices/gizmo-greeter/pkg/greeterendpoint"
-	"github.com/antklim/go-microservices/gizmo-greeter/pkg/greetersd"
-	"github.com/antklim/go-microservices/gizmo-greeter/pkg/greeterservice"
-	"github.com/antklim/go-microservices/gizmo-greeter/pkg/greetertransport"
 	"github.com/oklog/oklog/pkg/group"
+	"github.com/yveshield/go-microservices/gizmo-greeter/pkg/greeterendpoint"
+	"github.com/yveshield/go-microservices/gizmo-greeter/pkg/greetersd"
+	"github.com/yveshield/go-microservices/gizmo-greeter/pkg/greeterservice"
+	"github.com/yveshield/go-microservices/gizmo-greeter/pkg/greetertransport"
 )
 
 func main() {

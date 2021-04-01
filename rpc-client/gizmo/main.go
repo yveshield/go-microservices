@@ -7,7 +7,7 @@ import (
 	"os"
 	"text/tabwriter"
 
-	gizmoservice "github.com/antklim/go-microservices/gizmo-greeter/pb"
+	gizmoservice "github.com/yveshield/go-microservices/gizmo-greeter/pb"
 	"google.golang.org/grpc"
 )
 

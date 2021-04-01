@@ -3,10 +3,10 @@ package greetertransport
 import (
 	"context"
 
-	"github.com/antklim/go-microservices/go-kit-greeter/pb"
-	"github.com/antklim/go-microservices/go-kit-greeter/pkg/greeterendpoint"
 	"github.com/go-kit/kit/log"
 	grpctransport "github.com/go-kit/kit/transport/grpc"
+	"github.com/yveshield/go-microservices/go-kit-greeter/pb"
+	"github.com/yveshield/go-microservices/go-kit-greeter/pkg/greeterendpoint"
 	oldcontext "golang.org/x/net/context"
 )
 

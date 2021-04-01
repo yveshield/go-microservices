@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	proto "github.com/antklim/go-microservices/go-micro-greeter/pb"
-	"github.com/micro/go-micro/client"
-	web "github.com/micro/go-web"
+	"github.com/asim/go-micro/v3/client"
+	web "github.com/asim/go-micro/v3/web"
+	proto "github.com/yveshield/go-microservices/go-micro-greeter/pb"
 )
 
 func main() {

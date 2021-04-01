@@ -1,7 +1,7 @@
 package greetertransport
 
 import (
-	pb "github.com/antklim/go-microservices/gizmo-greeter/pb"
+	pb "github.com/yveshield/go-microservices/gizmo-greeter/pb"
 	ocontext "golang.org/x/net/context"
 )
 

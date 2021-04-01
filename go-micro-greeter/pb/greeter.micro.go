@@ -3,13 +3,17 @@
 
 package pb
 
-import proto "github.com/golang/protobuf/proto"
-import fmt "fmt"
-import math "math"
-
 import (
-	client "github.com/micro/go-micro/client"
-	server "github.com/micro/go-micro/server"
+	fmt "fmt"
+
+	proto "github.com/golang/protobuf/proto"
+
+	math "math"
+
+	client "github.com/asim/go-micro/v3/client"
+
+	server "github.com/asim/go-micro/v3/server"
+
 	context "context"
 )
 

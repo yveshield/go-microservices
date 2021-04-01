@@ -21,6 +21,6 @@ echo $! > go-kit-greeter.pid
 sleep 1
 
 echo "Starting gizmo-greeter"
-nohup go run ../gizmo-greeter/cmd/greetersvc.go -config.path='/Users/antklim/code/HOME/go/go-microservices/gizmo-greeter/cmd/config.json' &
+nohup go run ../gizmo-greeter/cmd/greetersvc.go -config.path='/Users/yves/Developer/go/go-microservices/gizmo-greeter/cmd/config.json' &
 echo $! > gizmo-greeter.pid
 sleep 1

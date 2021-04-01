@@ -7,7 +7,7 @@ import (
 	"os"
 	"text/tabwriter"
 
-	gokitservice "github.com/antklim/go-microservices/go-kit-greeter/pb"
+	gokitservice "github.com/yveshield/go-microservices/go-kit-greeter/pb"
 	"google.golang.org/grpc"
 )
 

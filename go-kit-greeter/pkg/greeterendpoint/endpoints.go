@@ -5,8 +5,8 @@ import (
 
 	"github.com/go-kit/kit/log"
 
-	"github.com/antklim/go-microservices/go-kit-greeter/pkg/greeterservice"
 	"github.com/go-kit/kit/endpoint"
+	"github.com/yveshield/go-microservices/go-kit-greeter/pkg/greeterservice"
 )
 
 // Endpoints collects all of the endpoints that compose a greeter service. It's

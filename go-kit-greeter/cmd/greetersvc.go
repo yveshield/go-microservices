@@ -10,13 +10,13 @@ import (
 	"syscall"
 	"text/tabwriter"
 
-	"github.com/antklim/go-microservices/go-kit-greeter/pb"
+	"github.com/yveshield/go-microservices/go-kit-greeter/pb"
 	"google.golang.org/grpc"
 
-	"github.com/antklim/go-microservices/go-kit-greeter/pkg/greeterendpoint"
-	"github.com/antklim/go-microservices/go-kit-greeter/pkg/greetersd"
-	"github.com/antklim/go-microservices/go-kit-greeter/pkg/greeterservice"
-	"github.com/antklim/go-microservices/go-kit-greeter/pkg/greetertransport"
+	"github.com/yveshield/go-microservices/go-kit-greeter/pkg/greeterendpoint"
+	"github.com/yveshield/go-microservices/go-kit-greeter/pkg/greetersd"
+	"github.com/yveshield/go-microservices/go-kit-greeter/pkg/greeterservice"
+	"github.com/yveshield/go-microservices/go-kit-greeter/pkg/greetertransport"
 
 	"github.com/go-kit/kit/log"
 	"github.com/oklog/oklog/pkg/group"
