@@ -6,8 +6,8 @@ import (
 	"log"
 	"net/http"
 
+	web "github.com/asim/go-micro/v3"
 	"github.com/asim/go-micro/v3/client"
-	web "github.com/asim/go-micro/v3/web"
 	proto "github.com/yveshield/go-microservices/go-micro-greeter/pb"
 )
 
